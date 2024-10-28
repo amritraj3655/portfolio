@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amrit Raj</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Loader -->
+    <div class="loader">
+        <div class="loader-content">
+            <div class="loader-text">Amrit Raj</div>
+            <div class="loader-bar"></div>
+        </div>
+    </div>
+    <!-- Social Media Links -->
+    <div class="social-links">
+        <a href="https://github.com/amritraj3655" target="_blank" aria-label="GitHub"><i
+                class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/amritraj3655//" target="_blank" aria-label="LinkedIn"><i
+                class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/amritraj3655/" target="_blank"
+            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+    <canvas id="particle-canvas"></canvas>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="grain-overlay"></div>
+        <div class="hero-content">
+            <div class="profile-photo">
+                <img src="./AMrit.jpg" alt="Srijan Sarkar" class="profile-image">
+            </div>
+            <h1 class="glitch-text" data-text="Amrit Raj">Amrit Raj</h1>
+            <p class="hero-description">Pushing Boundaries</p>
+            <button class="explore-btn">
+                <span class="btn-text">Explore</span>
+                <span class="btn-icon">↓</span>
+            </button>
+        </div>
+        <canvas id="noise-canvas"></canvas>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content hidden">
+        <!-- Add this right after the About Me section's closing paragraph -->
+        <section class="about-section" data-aos="fade-up">
+            <h2 class="section-title">About Me</h2>
+            <p>I am currently a second-year B.Tech Computer Science student with a deep passion for learning, especially
+                in the fields of Artificial Intelligence and Machine Learning. Driven by curiosity and dedication, I aim
+                to leverage my skills to contribute to AI innovations that make a real-world impact. I achieved a 91%
+                score in Class 10 and an 81% in Class 12, demonstrating consistent academic performance. My goal is to
+                deepen my expertise in CSE and AIML, enabling me to solve complex problems and innovate in technology.
+                Alongside academics, I enjoy playing chess, which enhances my analytical skills, and coding, which
+                strengthens my technical proficiency. I am focused, resilient, and always eager to expand my knowledge
+                and skill set.
+            </p>
+            <a href="https://drive.google.com/file/d/1yF_AEn-inVWylPyedI65Q86WSeXw25UV/view?usp=sharing"
+                class="resume-btn" target="_blank">
+                <span class="btn-text">View Resume</span>
+                <i class="fas fa-file-alt btn-icon"></i>
+            </a>
+        </section>
+
+        <!-- Featured Projects -->
+        <section class="projects-section" data-aos="fade-up">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card" data-aos="fade-up">
+                    <h3>Portfolio Website</h3>
+                    <p>Mapping your personal Work.</p>
+                    <div class="project-tech">HTML,CSS & JS</div>
+                    <a href="https://github.com/Srijansarkar17/SunScope" class="project-btn" target="_blank">View on
+                        GitHub</a>
+                </article>
+                
+            </div>
+        </section>
+
+
+        <!-- Skills Section -->
+        <section class="skills-section" data-aos="fade-up">
+            <h2 class="section-title">Expertise</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Python</h3>
+                    <!-- <span>Deep Learning, Computer Vision, NLP, Reinforcement Learning</span> -->
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <span>C, C++, Python, Java</span>
+                </div>
+                <div class="skill-category">
+                    <h3>PhotoShop</h3>
+                    <!-- <span>TensorFlow, Scikit-Learn, Spacy, Pandas, NLTK, Numpy, Matplotlib, Keras, Flask, OpenCV</span> -->
+                </div>
+                <div class="skill-category">
+                    <h3>DBMS</h3>
+                    <!-- <span>AWS, MLflow, Kubernetes, CI/CD</span> -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section" data-aos="fade-up">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-icon">
+                        <img src="./PLACV.jpg" alt="Next Tech Lab Logo" class="company-logo" />
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Member</h3>
+                        <h4>Placfv's (SRM Placement Student Team)
+                        </h4>
+                        <p class="timeline-date">FEB 2024 - Present · 10mos</p>
+                        <p class="timeline-location">Chennai, Tamil Nadu, India</p>
+                        <!-- <div class="skill-tag">Machine Learning and Deep Learning</div> -->
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" data-aos="fade-up">
+            <h2 class="section-title">Contact</h2>
+            <p>Let's collaborate on innovative AI projects.</p>
+            <div class="contact-links">
+                <a href="amritrajshc8900@gmail.com">Email</a>
+                <a href="https://www.instagram.com/amritraj3655/">LinkedIn</a>
+                <a href="https://github.com/amritraj3655">GitHub</a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
